@@ -3,15 +3,15 @@ import java.util.ArrayList;
 
 public class Spectacol {
     private int ID_spectacol;
-    private LocalDate data_specatol;
+    private LocalDate data_spectacol;
     private String titlu;
     private double pret_bilet;
     private ArrayList<Integer> lista_locuri_vandute;
     private double sold;
 
-    public Spectacol(int ID_spectacol, LocalDate data_specatol, String titlu, double pret_bilet) {
+    public Spectacol(int ID_spectacol, LocalDate data_spectacol, String titlu, double pret_bilet) {
         this.ID_spectacol = ID_spectacol;
-        this.data_specatol = data_specatol;
+        this.data_spectacol = data_spectacol;
         this.titlu = titlu;
         this.pret_bilet = pret_bilet;
     }
@@ -24,12 +24,12 @@ public class Spectacol {
         this.ID_spectacol = ID_spectacol;
     }
 
-    public LocalDate getData_specatol() {
-        return data_specatol;
+    public LocalDate getData_spectacol() {
+        return data_spectacol;
     }
 
-    public void setData_specatol(LocalDate data_specatol) {
-        this.data_specatol = data_specatol;
+    public void setData_spectacol(LocalDate data_specatol) {
+        this.data_spectacol = data_specatol;
     }
 
     public String getTitlu() {
@@ -67,7 +67,7 @@ public class Spectacol {
     public void setSold(double sold) {
         this.sold = sold;
     }
-    public void substractSold(){
-        this.sold-- ;
+    public void addSold(double sold){
+        this.sold += sold ;
     }
 }
