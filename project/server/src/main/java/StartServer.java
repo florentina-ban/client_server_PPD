@@ -6,5 +6,6 @@ public class StartServer {
 
     public static void main(String[] args) {
         ApplicationContext factory = new ClassPathXmlApplicationContext("classpath:server-spring.xml");
+        System.out.println("server deschis! ");
     }
 }

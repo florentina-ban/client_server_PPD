@@ -10,11 +10,12 @@ public class Vanzare {
     private ArrayList<Integer> lista_locuri_vandute;
     private double suma;
 
-    public Vanzare(int ID_spectacol, LocalDate data_vanzare, int nr_bilete_vandute, double suma) {
+    public Vanzare(int ID_spectacol, LocalDate data_vanzare, int nr_bilete_vandute, ArrayList<Integer> locuri, double suma) {
         this.ID_spectacol = ID_spectacol;
         this.data_vanzare = data_vanzare;
         this.nr_bilete_vandute = nr_bilete_vandute;
         this.suma = suma;
+        this.lista_locuri_vandute = locuri;
     }
 
     public int getID_spectacol() {
@@ -59,5 +60,17 @@ public class Vanzare {
 
     public void setSuma(double suma) {
         this.suma = suma;
+    }
+
+    public String listaString(){
+        String s="";
+        for (int i=0; i<lista_locuri_vandute.size(); i++)
+            s+=lista_locuri_vandute.get(i).toString()+",";
+        return s;
+    }
+    @Override
+    public String toString() {
+        return ID_spectacol+"," + data_vanzare+","+ nr_bilete_vandute +"\n"
+                + listaString() + "\n"+ suma +"\n";
     }
 }

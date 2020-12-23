@@ -8,7 +8,7 @@ public class Spectacol {
     private LocalDate data_spectacol;
     private String titlu;
     private double pret_bilet;
-    private ArrayList<Integer> lista_locuri_vandute;
+    private ArrayList<Integer> lista_locuri_cumparate;
     private double sold;
 
     public Spectacol(int ID_spectacol, LocalDate data_spectacol, String titlu, double pret_bilet) {
@@ -16,6 +16,28 @@ public class Spectacol {
         this.data_spectacol = data_spectacol;
         this.titlu = titlu;
         this.pret_bilet = pret_bilet;
+    }
+
+    public Spectacol(int ID_spectacol, LocalDate data_spectacol, String titlu, double pret_bilet, ArrayList<Integer> lista_locuri_cumparate, double sold) {
+        this.ID_spectacol = ID_spectacol;
+        this.data_spectacol = data_spectacol;
+        this.titlu = titlu;
+        this.pret_bilet = pret_bilet;
+        this.lista_locuri_cumparate = lista_locuri_cumparate;
+        this.sold = sold;
+    }
+
+    public String listaString(){
+        String s="";
+        for (int i = 0; i< lista_locuri_cumparate.size(); i++)
+            s+= lista_locuri_cumparate.get(i).toString()+",";
+        return s;
+    }
+    @Override
+    public String toString() {
+        return ID_spectacol + ","+ data_spectacol + "," + titlu + "," +pret_bilet +"\n"+
+                listaString() + "\n"+
+                sold +"\n";
     }
 
     public int getID_spectacol() {
@@ -50,16 +72,16 @@ public class Spectacol {
         this.pret_bilet = pret_bilet;
     }
 
-    public ArrayList<Integer> getLista_locuri_vandute() {
-        return lista_locuri_vandute;
+    public ArrayList<Integer> getLista_locuri_cumparate() {
+        return lista_locuri_cumparate;
     }
 
-    public void setLista_locuri_vandute(ArrayList<Integer> lista_locuri_vandute) {
-        this.lista_locuri_vandute = lista_locuri_vandute;
+    public void setLista_locuri_cumparate(ArrayList<Integer> lista_locuri_cumparate) {
+        this.lista_locuri_cumparate = lista_locuri_cumparate;
     }
 
     public void addLoc_Vandut(int nrLoc){
-        this.lista_locuri_vandute.add(nrLoc);
+        this.lista_locuri_cumparate.add(nrLoc);
     }
 
     public double getSold() {

@@ -4,8 +4,12 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
 
-    <bean id="appService" class="services.ServiceImplementation" >
+    <bean id="repoVanzari" class="repo.RepoVanzari"/>
+    <bean id="repoSpectacol" class="repo.RepoSpectacol"/>
 
+    <bean id="appService" class="services.ServiceImplementation" >
+        <constructor-arg ref="repoVanzari" name="repoVanzari"/>
+        <constructor-arg ref="repoSpectacol" name="repoSpectacol"/>
     </bean>
 
     <bean class ="org.springframework.remoting.rmi.RmiServiceExporter">
