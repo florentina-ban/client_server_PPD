@@ -1,0 +1,739 @@
+nicio vanzare
+nicio vanzare
+nicio vanzare
+nicio vanzare
+nicio vanzare
+nicio vanzare
+nicio vanzare
+idSpectacol: 2 verificationDate: 22:40:31.769765100 nr vanzari: 1 -> corect
+[11, 36, 38, 55]
+[11, 36, 38, 55]
+idSpectacol: 2 verificationDate: 22:40:34.772596500 nr vanzari: 2 -> corect
+[11, 19, 36, 37, 38, 55, 84, 87]
+[11, 19, 36, 37, 38, 55, 84, 87]
+idSpectacol: 2 verificationDate: 22:40:37.770499900 nr vanzari: 4 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 22:40:37.771506 nr vanzari: 4 -> corect
+[50]
+[50]
+idSpectacol: 2 verificationDate: 22:40:40.769249300 nr vanzari: 4 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 22:40:40.769249300 nr vanzari: 4 -> corect
+[50]
+[50]
+idSpectacol: 2 verificationDate: 22:40:43.773503600 nr vanzari: 6 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 22:40:43.773503600 nr vanzari: 6 -> corect
+[14, 17, 46, 50, 64, 65]
+[14, 17, 46, 50, 64, 65]
+idSpectacol: 2 verificationDate: 22:50:24.228241800 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 22:50:24.284093600 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 22:50:27.228601200 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 22:50:27.228601200 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 22:50:30.213904200 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 22:50:30.213904200 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 22:50:33.222356700 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 22:50:33.222356700 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 22:50:36.220524600 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 22:50:36.220524600 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 22:50:39.218640600 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 22:50:39.218640600 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 22:50:42.227355 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 22:50:42.227355 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 22:50:45.215637500 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 22:50:45.215637500 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 22:50:48.217957900 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 22:50:48.217957900 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:00:51.154076900 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:00:51.215586700 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:00:54.141367500 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:00:54.141367500 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:00:57.145177300 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:00:57.145177300 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:01:00.143513900 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:01:00.143513900 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:01:03.149052200 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:01:03.149052200 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:01:06.148768 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:01:06.148768 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:01:09.141322600 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:01:09.141322600 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:01:12.151945500 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:01:12.152951300 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:01:15.143137 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:01:15.143137 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:01:18.150537900 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:01:18.150537900 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:01:21.156164800 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:01:21.157162100 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:01:24.175466 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:01:24.175466 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:01:27.166670600 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:01:27.166670600 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:01:30.166319600 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:01:30.166319600 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:01:33.158586500 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:01:33.159562600 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:01:36.179240100 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:01:36.179240100 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:07:26.745934800 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:07:26.811761200 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:07:29.741261 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:07:29.741261 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:07:32.734982 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:07:32.734982 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:07:35.746425100 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:07:35.746425100 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:07:38.750979300 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:07:38.751977100 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:07:41.751077100 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:07:41.751077100 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:07:44.742502200 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:07:44.742502200 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:07:47.733682900 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:07:47.733682900 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:07:50.733856800 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:07:50.733856800 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:07:53.743364700 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:07:53.743364700 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:07:56.734258600 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:07:56.735255600 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:07:59.745685300 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:07:59.745685300 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:08:02.734439600 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:08:02.734439600 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:08:05.736047200 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:08:05.736047200 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:08:08.730628400 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:08:08.730628400 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:08:11.732253600 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:08:11.732253600 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:09:32.894736900 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:09:32.932427800 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:09:35.887776 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:09:35.887776 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:09:38.891171200 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:09:38.891171200 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:09:41.908684100 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:09:41.908684100 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:09:44.895236400 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:09:44.897230800 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:09:47.886505200 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:09:47.886505200 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:09:50.889861 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:09:50.889861 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:09:53.886720700 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:09:53.886720700 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:09:56.885648500 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:09:56.886651700 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:17:11.223760400 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:17:11.292575300 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:17:14.222397500 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:17:14.222397500 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:17:17.213810300 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:17:17.213810300 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:17:20.209607400 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:17:20.210606 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:17:23.231009100 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:17:23.231009100 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:17:26.220790800 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:17:26.221788300 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:17:29.211852900 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:17:29.211852900 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:17:32.215511500 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:17:32.216510200 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:17:35.205591900 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:17:35.205591900 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:17:38.216758400 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:17:38.217758800 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:17:41.212401 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:17:41.212401 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:17:44.215846 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:17:44.216845500 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:17:47.217080500 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:17:47.217080500 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:23:13.809171400 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:23:13.877422500 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:23:16.811045400 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:23:16.811045400 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:23:19.809259 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:23:19.809259 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:23:22.814025400 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:23:22.815022800 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:23:25.802079700 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:23:25.803077400 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:23:28.800161500 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:23:28.800161500 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:23:31.808151300 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:23:31.808151300 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:23:59.895348400 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:23:59.945214900 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:24:02.927953300 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:24:02.927953300 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:24:05.901576400 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:24:05.901576400 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:24:08.887030200 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:24:08.887030200 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:24:11.901426200 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:24:11.901426200 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:24:14.895865 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:24:14.895865 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:24:17.887371200 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:24:17.887371200 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:24:20.885819200 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:24:20.886021200 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:25:35.724033100 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:25:35.757946500 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:25:38.729533 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:25:38.730529500 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:25:41.719880300 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:25:41.719880300 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:25:44.726748500 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:25:44.726748500 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:25:47.727681100 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:25:47.727681100 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:25:50.723851400 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:25:50.723851400 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:25:53.727894500 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:25:53.727894500 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:28:35.831516900 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:28:35.866965300 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:28:38.836449300 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:28:38.837446200 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:28:41.833168600 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:28:41.833168600 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:28:44.840108700 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:28:44.840108700 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:28:47.822602900 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:28:47.823599300 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:28:50.826552600 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:28:50.826552600 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:28:53.827410600 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:28:53.827410600 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:28:56.834785900 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:28:56.834785900 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:28:59.833428300 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:28:59.833428300 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:02.830682300 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:02.830682300 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:05.828558200 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:05.828558200 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:08.833014800 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:08.833014800 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:11.831545900 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:11.831545900 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:14.837357700 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:14.837357700 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:17.855189900 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:17.856184500 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:20.823444800 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:20.824445900 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:23.827079300 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:23.827079300 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:26.828102100 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:26.828102100 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:29.833077700 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:29.833077700 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:32.835799400 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:32.835799400 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:35.859395300 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:35.859395300 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:38.829237900 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:38.829237900 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:41.822774400 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:41.822774400 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:44.831097800 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:44.831097800 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:47.824188800 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:47.824188800 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:50.834140 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:50.834140 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:53.834023100 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:53.834023100 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:29:56.821705200 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:29:56.821705200 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:30:01.869981500 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:30:01.938797800 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:30:04.865354600 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:30:04.866356200 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:30:07.864852400 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:30:07.864852400 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:30:10.871342500 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:30:10.871342500 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]
+idSpectacol: 2 verificationDate: 23:30:13.867831600 nr vanzari: 7 -> corect
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+[11, 19, 36, 37, 38, 55, 80, 84, 87]
+idSpectacol: 1 verificationDate: 23:30:13.867831600 nr vanzari: 7 -> corect
+[14, 17, 46, 50, 64, 65, 84]
+[14, 17, 46, 50, 64, 65, 84]

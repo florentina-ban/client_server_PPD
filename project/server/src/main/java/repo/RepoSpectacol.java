@@ -1,39 +1,38 @@
 package repo;
 
 import model.Spectacol;
-import model.Vanzare;
-
 import java.io.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class RepoSpectacol {
-    String fileName;
+    File fileSpec;
     ArrayList<Spectacol> spectacole;
 
     public RepoSpectacol() {
         spectacole = new ArrayList<>();
-        fileName = "spectacole.txt";
-        citesteDinFiser();
+
     }
 
-    public Spectacol getOne(int id){
-        Spectacol spectacol = spectacole.stream().filter(sp -> {return sp.getID_spectacol()==id;}).findFirst().get();
-        return spectacol;
+    public void setFileSpec(File fileSpec) {
+        this.fileSpec = fileSpec;
     }
 
-    public void addSpectacol(int id_Spect, ArrayList<Integer> locuri){
+    public synchronized Spectacol getOne(int id){
+        return spectacole.stream().filter(sp -> {return sp.getID_spectacol()==id;}).findFirst().get();
+    }
+
+    public synchronized void addSpectacol(int id_Spect, ArrayList<Integer> locuri){
         Spectacol sp = getOne(id_Spect);
-        locuri.forEach(x->{sp.addLoc_Vandut(x);});
+        locuri.forEach(sp::addLoc_Vandut);
 
         updateSpectacole();
     }
 
     public void citesteDinFiser(){
-        File file = new File(fileName);
         try {
-            Scanner scanner = new Scanner(file);
+            Scanner scanner = new Scanner(fileSpec);
             while (scanner.hasNext()){
                 String line1 = scanner.nextLine();
                 if (line1.trim().length()==0)
@@ -62,9 +61,9 @@ public class RepoSpectacol {
         }
     }
 
-    public synchronized void updateSpectacole(){
+    public void updateSpectacole(){
         try{
-        FileWriter fileWriter = new FileWriter(fileName); //Set true for append mode
+        FileWriter fileWriter = new FileWriter(fileSpec); //Set true for append mode
         PrintWriter printWriter = new PrintWriter(fileWriter);
         spectacole.forEach(spe -> {
             printWriter.println(spe);

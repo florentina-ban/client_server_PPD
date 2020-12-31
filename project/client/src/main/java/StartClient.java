@@ -3,41 +3,37 @@ import services.IService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import java.sql.DatabaseMetaData;
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
+import java.util.Random;
+import java.util.concurrent.*;
 
 public class StartClient {
     static IService server;
 
-    public static class MyRunnable implements Runnable{
+    public static class MyCallable implements Callable<Integer> {
 
         @Override
-        public void run() {
+        public Integer call() {
             DtoMic dtoMic = getDto();
-            Integer rez = server.cumparaBilet(dtoMic.idSpect, LocalDate.now(), dtoMic.nrLoc, dtoMic.lista_loc);
-            System.out.println(rez);
+            return server.cumparaBilet(dtoMic.idSpect, LocalDate.now(), dtoMic.nrLoc, dtoMic.lista_loc);
         }
     }
 
     private static DtoMic getDto(){
-        int id =(int)(Math.random() *(3 - 1)) + 1;
-        int nrBil = (int)(Math.random() *(10 - 1)) + 1;
+        Random rand = new Random(System.currentTimeMillis());
+        int id =(rand.nextInt() *(4 - 1)) + 1;
+        int nrBil = (rand.nextInt() *(5 - 1)) + 1;
         ArrayList<Integer> l =new ArrayList<>();
         for (int i=0; i<nrBil; i++){
-            int loc =  (int)(Math.random() *(100 - 1)) + 1;
+            int loc =  (rand.nextInt() *(100 - 1)) + 1;
             if (l.contains(loc)){
                 i--;
                 continue;
             }
             l.add(loc);
         }
-        DtoMic dtoMic = new DtoMic(id,nrBil,l);
-        return dtoMic;
+        return new DtoMic(id,nrBil,l);
     }
 
     public static void main(String[] args) {
@@ -47,10 +43,20 @@ public class StartClient {
         server = (IService) factory.getBean("serviceApplication");
         System.out.println("Obtained a reference to remote server");
 
-        for(int i=0; i<20; i++){
-            executor.submit(new MyRunnable());
+        for(int i=0; i<200; i++){
+            Future<Integer> rez = executor.submit(new MyCallable());
+            try {
+                if (rez.get()==-100)
+                    break;
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException exception) {
+                    exception.printStackTrace();
+                }
+            } catch (InterruptedException | ExecutionException exception) {
+                exception.printStackTrace();
+            }
         }
-
         executor.shutdown();
        }
 }

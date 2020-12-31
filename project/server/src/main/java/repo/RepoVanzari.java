@@ -3,27 +3,27 @@ package repo;
 import model.Vanzare;
 
 import java.io.*;
-import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
-import java.util.Scanner;
-
 
 public class RepoVanzari {
-    String fileName;
+    File fileV;
     ArrayList<Vanzare> listaVanzari;
 
     public RepoVanzari() {
         this.listaVanzari =new ArrayList<>();
-        fileName = "vanzari.txt";
     }
 
-    public void addVanzare(Vanzare vanzare){
+    public void setFileV(File fileV) {
+        this.fileV = fileV;
+    }
+
+    public synchronized void addVanzare(Vanzare vanzare){
         listaVanzari.add(vanzare);
         actualizareFisier(vanzare);
     }
-    public synchronized void actualizareFisier(Vanzare vanzare){
+    public void actualizareFisier(Vanzare vanzare){
         try {
-            FileWriter fileWriter = new FileWriter(fileName, true); //Set true for append mode
+            FileWriter fileWriter = new FileWriter(fileV, true); //Set true for append mode
             PrintWriter printWriter = new PrintWriter(fileWriter);
             printWriter.print(vanzare);
             printWriter.close();

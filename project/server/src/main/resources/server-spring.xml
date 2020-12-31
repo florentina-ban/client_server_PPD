@@ -5,7 +5,9 @@
 
 
     <bean id="repoVanzari" class="repo.RepoVanzari"/>
-    <bean id="repoSpectacol" class="repo.RepoSpectacol"/>
+    <bean id="repoSpectacol" class="repo.RepoSpectacol">
+
+    </bean>
 
     <bean id="appService" class="services.ServiceImplementation" >
         <constructor-arg ref="repoVanzari" name="repoVanzari"/>
