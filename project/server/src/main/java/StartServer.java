@@ -5,7 +5,6 @@ import services.ServiceImplementation;
 
 import java.rmi.NoSuchObjectException;
 import java.rmi.server.UnicastRemoteObject;
-import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -13,17 +12,18 @@ import java.util.TimerTask;
 public class StartServer {
 
     public static void main(String[] args) {
-        long start = System.currentTimeMillis();
-        long end = start + 5*1000;
-
         ApplicationContext factory = new ClassPathXmlApplicationContext("classpath:server-spring.xml");
+        IService server = (IService) factory.getBean("appService");
 
+        //schedule server to stop after specific time;
         TimerTask task = new TimerTask() {
             public void run() {
                 try {
-                    UnicastRemoteObject.unexportObject(factory.getBean("appService", services.ServiceImplementation.class),true);
+                    ServiceImplementation serv = (ServiceImplementation) server;
+                    serv.stopSterver();
+                    UnicastRemoteObject.unexportObject(serv, true);
                     System.out.println("stopped");
-
+                    System.exit(0);
                 } catch (NoSuchObjectException e) {
                     e.printStackTrace();
                 }
@@ -31,8 +31,8 @@ public class StartServer {
         };
 
         Timer timer = new Timer("Timer");
-        long delay = 3000L;
-        timer.scheduleAtFixedRate(task, new Date(), delay);
+        long delay = 60000L;
+        timer.schedule(task, delay);
 
         System.out.println("server deschis! ");
     }

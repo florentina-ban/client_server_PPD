@@ -92,6 +92,7 @@ public class Spectacol {
 
     public void addLoc_Vandut(int nrLoc) {
         this.lista_locuri_cumparate.add(nrLoc);
+        this.addSold(this.getPret_bilet());
     }
 
     public double getSold() {

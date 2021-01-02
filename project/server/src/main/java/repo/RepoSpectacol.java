@@ -12,7 +12,6 @@ public class RepoSpectacol {
 
     public RepoSpectacol() {
         spectacole = new ArrayList<>();
-
     }
 
     public void setFileSpec(File fileSpec) {
@@ -20,7 +19,7 @@ public class RepoSpectacol {
     }
 
     public synchronized Spectacol getOne(int id){
-        return spectacole.stream().filter(sp -> {return sp.getID_spectacol()==id;}).findFirst().get();
+        return spectacole.stream().filter(sp -> sp.getID_spectacol()==id).findFirst().get();
     }
 
     public synchronized void addSpectacol(int id_Spect, ArrayList<Integer> locuri){
@@ -56,9 +55,18 @@ public class RepoSpectacol {
                 Spectacol spectacol = new Spectacol(idSpec, localDate,titlu,pretBilet,bilete_vandute, suma);
                 spectacole.add(spectacol);
             }
+            emptySpectacolFile();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
+    }
+    public void emptySpectacolFile(){
+        spectacole.forEach(spectacol -> {
+            spectacol.setLista_locuri_cumparate(new ArrayList<>());
+            spectacol.setSold(0.0);
+            updateSpectacole();
+        });
+
     }
 
     public void updateSpectacole(){

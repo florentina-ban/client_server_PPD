@@ -5,12 +5,7 @@ import model.SpectacolDto;
 import model.Vanzare;
 import repo.RepoSpectacol;
 import repo.RepoVanzari;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.PrintWriter;
-import java.rmi.NoSuchObjectException;
+import java.io.*;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.time.LocalDate;
@@ -22,7 +17,7 @@ public class ServiceImplementation extends UnicastRemoteObject implements IServi
     File fileVanzari, fileSpectacole;
     RepoVanzari repoVanzari;
     RepoSpectacol repoSpectacol;
-    long start, end;
+    public List<IClient> clients;
     ExecutorService executor = Executors.newFixedThreadPool(20);
 
     public class WorkerVanzari implements Callable<Integer> {
@@ -33,31 +28,30 @@ public class ServiceImplementation extends UnicastRemoteObject implements IServi
         }
 
         @Override
-        public Integer call() throws Exception {
+        public Integer call() {
             synchronized (repoVanzari) {
-                if (valideazaVanzare(v)) {
-                    try {
-                        double suma = v.getNr_bilete_vandute() * repoSpectacol.getOne(v.getID_spectacol()).getPret_bilet();
-                        Spectacol spect = repoSpectacol.getOne(v.getID_spectacol());
-                        v.setSuma(suma);
-                        spect.addSold(suma);
-                        synchronized (fileVanzari) {
-                            synchronized (fileSpectacole) {
-                                repoVanzari.addVanzare(v);
+                try {
+                    double suma = v.getNr_bilete_vandute() * repoSpectacol.getOne(v.getID_spectacol()).getPret_bilet();
+                    v.setSuma(suma);
+
+                    synchronized (fileVanzari) {
+                        synchronized (fileSpectacole) {
+                            int added = repoVanzari.addVanzare(v);
+                            if (added==0) {
                                 repoSpectacol.addSpectacol(v.getID_spectacol(), v.getLista_locuri_vandute());
+                                return 0;
                             }
                         }
-                    } catch (Exception ex) {
-                        return -6;
                     }
-                    return 0;
+                } catch (Exception ex) {
+                    System.out.println(ex.getMessage());
+                    return -6;
                 }
-                return -1;
             }
+            return -1;
         }
-
-
     }
+
     public class WorkerVerificari {
         ArrayList<Spectacol> listaSpactacole;
         ArrayList<Vanzare> listaVanzari;
@@ -101,9 +95,9 @@ public class ServiceImplementation extends UnicastRemoteObject implements IServi
             ArrayList<Spectacol> list = new ArrayList<>();
             try {
                 Scanner scanner = new Scanner(fileSpectacole);
-                while (scanner.hasNext()){
+                while (scanner.hasNext()) {
                     String line1 = scanner.nextLine();
-                    if (line1.trim().length()==0)
+                    if (line1.trim().length() == 0)
                         continue;
                     String line2 = scanner.nextLine();
                     String line3 = scanner.nextLine();
@@ -114,14 +108,14 @@ public class ServiceImplementation extends UnicastRemoteObject implements IServi
                     double pretBilet = Double.parseDouble(parts[3]);
                     parts = line2.split(",");
                     ArrayList<Integer> bilete_vandute = new ArrayList<>();
-                    for (String p :parts) {
-                        try{
+                    for (String p : parts) {
+                        try {
                             bilete_vandute.add(Integer.parseInt(p));
-                        }catch (Exception ex){
+                        } catch (Exception ex) {
                         }
                     }
                     Double suma = Double.parseDouble(line3);
-                    Spectacol spectacol = new Spectacol(idSpec, localDate,titlu, pretBilet, bilete_vandute, suma);
+                    Spectacol spectacol = new Spectacol(idSpec, localDate, titlu, pretBilet, bilete_vandute, suma);
                     list.add(spectacol);
                 }
                 return list;
@@ -131,65 +125,64 @@ public class ServiceImplementation extends UnicastRemoteObject implements IServi
             return list;
         }
 
-        public void scrieVerificare(){
+        public void scrieVerificare() {
             File fileV = new File("verificare.txt");
             try {
                 FileWriter fileWriter = new FileWriter(fileV, true); //Set true for append mode
                 PrintWriter printWriter = new PrintWriter(fileWriter);
                 spectacolDtos.forEach(spe -> {
-                    String correct = spe.correct? "corect" : "incorect";
-                    printWriter.println("idSpectacol: " + spe.id+ " verificationDate: "+ LocalTime.now().toString() +
-                             " nr vanzari: "+ listaVanzari.size() + " -> " +correct + "\n"+ spe.lista1  +"\n"+spe.lista2);
+                    String correct = spe.correct ? "corect" : "incorect";
+                    printWriter.println("idSpectacol: " + spe.id + " verificationDate: " + LocalTime.now().toString() +
+                            " nr vanzari: " + listaVanzari.size() + " -> " + correct + "\n" + spe.lista1 + "\n" + spe.lista2);
                 });
-                if (spectacolDtos.size()==0)
+                if (spectacolDtos.size() == 0)
                     printWriter.println("nicio vanzare");
                 System.out.println("");
                 printWriter.close();
-            }catch (Exception ex){
+            } catch (Exception ex) {
 
             }
         }
 
         public void run() {
             try {
-                synchronized (fileVanzari){
-                    synchronized (fileSpectacole){
+                synchronized (fileVanzari) {
+                    synchronized (fileSpectacole) {
                         listaVanzari = citesteVanzariDinFisier();
                         listaSpactacole = citesteSpectacoleDinFisier();
                     }
                 }
 
-                  ArrayList<Spectacol> spectacole_din_vanzari = new ArrayList<>();
-                  listaVanzari.forEach(vanzare -> {
-                      Optional<Spectacol> sp = spectacole_din_vanzari
-                              .stream()
-                              .filter(x->x.getID_spectacol()==vanzare.getID_spectacol())
-                              .findFirst();
-                      if (sp.isPresent()){
-                          Spectacol spectacol = sp.get();
-                          spectacol.addSold(vanzare.getSuma());
-                          for(int i=0; i<vanzare.getLista_locuri_vandute().size(); i++)
-                              spectacol.addLoc_Vandut(vanzare.getLista_locuri_vandute().get(i));
-                      }
-                      else{
-                          Spectacol spectacol = new Spectacol(vanzare.getID_spectacol(),vanzare.getLista_locuri_vandute());
-                          spectacol.addSold(vanzare.getSuma());
-                          spectacole_din_vanzari.add(spectacol);
-                      }
-                  });
+                ArrayList<Spectacol> spectacole_din_vanzari = new ArrayList<>();
+                listaVanzari.forEach(vanzare -> {
+                    Optional<Spectacol> sp = spectacole_din_vanzari
+                            .stream()
+                            .filter(x -> x.getID_spectacol() == vanzare.getID_spectacol())
+                            .findFirst();
+                    if (sp.isPresent()) {
+                        Spectacol spectacol = sp.get();
+                        spectacol.addSold(vanzare.getSuma());
+                        for (int i = 0; i < vanzare.getLista_locuri_vandute().size(); i++)
+                            spectacol.addLoc_Vandut(vanzare.getLista_locuri_vandute().get(i));
+                    } else {
+                        Spectacol spectacol = new Spectacol(vanzare.getID_spectacol(), vanzare.getLista_locuri_vandute());
+                        spectacol.addSold(vanzare.getSuma());
+                        spectacole_din_vanzari.add(spectacol);
+                    }
+                });
 
-                for (int i=0; i<spectacole_din_vanzari.size(); i++){
-                    final int j=i;
+                for (int i = 0; i < spectacole_din_vanzari.size(); i++) {
+                    final int j = i;
                     Spectacol s1 = listaSpactacole
                             .stream()
-                            .filter(x->x.getID_spectacol()==spectacole_din_vanzari.get(j).getID_spectacol())
+                            .filter(x -> x.getID_spectacol() == spectacole_din_vanzari.get(j).getID_spectacol())
                             .findFirst()
                             .get();
                     Spectacol s2 = spectacole_din_vanzari.get(i);
                     if (!s1.equals(s2))
-                        spectacolDtos.add(new SpectacolDto(s1.getID_spectacol(),LocalDate.now(),false,s1.getLista_locuri_cumparate(), s2.getLista_locuri_cumparate()));
+                        spectacolDtos.add(new SpectacolDto(s1.getID_spectacol(), LocalDate.now(), false, s1.getLista_locuri_cumparate(), s2.getLista_locuri_cumparate()));
                     else
-                        spectacolDtos.add(new SpectacolDto(s1.getID_spectacol(),LocalDate.now(),true, s1.getLista_locuri_cumparate(), s2.getLista_locuri_cumparate()));
+                        spectacolDtos.add(new SpectacolDto(s1.getID_spectacol(), LocalDate.now(), true, s1.getLista_locuri_cumparate(), s2.getLista_locuri_cumparate()));
                 }
                 scrieVerificare();
             } catch (Exception ex) {
@@ -200,17 +193,27 @@ public class ServiceImplementation extends UnicastRemoteObject implements IServi
 
     public ServiceImplementation(RepoVanzari repoVanzari, RepoSpectacol repoSpectacol) throws RemoteException {
         super();
-        this.start = System.currentTimeMillis();
-        this.end = start + 3*1000;
         this.repoVanzari = repoVanzari;
         this.repoSpectacol = repoSpectacol;
         this.fileSpectacole = new File("spectacole.txt");
         this.fileVanzari = new File("vanzari.txt");
+        clients = new ArrayList<>();
         repoSpectacol.setFileSpec(fileSpectacole);
         repoVanzari.setFileV(fileVanzari);
         repoSpectacol.citesteDinFiser();
-        try {
 
+        //remove old verifications
+        try {
+            FileWriter fileWriter = new FileWriter(new File("verificare.txt"), false);
+            PrintWriter printWriter = new PrintWriter(fileWriter);
+            printWriter.close();
+            fileWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        //schedule verifications at spesicific times
+        try {
             TimerTask task = new TimerTask() {
                 public void run() {
                     WorkerVerificari workerVerificari = new WorkerVerificari();
@@ -218,50 +221,42 @@ public class ServiceImplementation extends UnicastRemoteObject implements IServi
                 }
             };
             Timer timer = new Timer("Timer");
-            long delay = 3000L;
+            long delay = 5000L;
             timer.scheduleAtFixedRate(task, new Date(), delay);
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
     }
-    private boolean valideazaVanzare(Vanzare vanzare) {
-        Spectacol spectacol = repoSpectacol.getOne(vanzare.getID_spectacol());
-        ArrayList<Integer> locuriV = spectacol.getLista_locuri_cumparate();
-        for (Integer loc : vanzare.getLista_locuri_vandute()) {
-            if (locuriV.contains(loc)) {
-                return false;
+    public void stopSterver(){
+
+        this.clients.forEach(client -> {
+            try {
+                client.serverHasStopped();
+            } catch (RemoteException e) {
+                e.printStackTrace();
             }
-        }
-        return true;
+        });
     }
 
     @Override
     public Integer cumparaBilet(int idSpectacol, LocalDate date, int nrBilete, ArrayList<Integer> locuri) {
+        Vanzare v = new Vanzare(idSpectacol, date, nrBilete, locuri, 0);
 
-        if (System.currentTimeMillis() < end) {
-            Vanzare v = new Vanzare(idSpectacol, date, nrBilete, locuri, 0);
-
-            Callable<Integer> worker = new WorkerVanzari(v);
-            Future<Integer> future = executor.submit(worker);
-            try {
-                return future.get();
-            } catch (InterruptedException exception) {
-                exception.printStackTrace();
-                return -3;
-            } catch (ExecutionException e) {
-                e.printStackTrace();
-                return -4;
-            }
+        Callable<Integer> worker = new WorkerVanzari(v);
+        Future<Integer> future = executor.submit(worker);
+        try {
+            return future.get();
+        } catch (InterruptedException exception) {
+            exception.printStackTrace();
+            return -3;
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+            return -4;
         }
-        else {
-            try {
+    }
 
-                UnicastRemoteObject.unexportObject(this,true);
-            } catch (NoSuchObjectException e) {
-                e.printStackTrace();
-            }
-            return -100;
-        }
-
+    @Override
+    public void addClient(IClient client) {
+        clients.add(client);
     }
 }

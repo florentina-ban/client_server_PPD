@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2578a7df-2a62-42df-b4dc-b90e8855027c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/client.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/model/SpectacolDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/ClientGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/services/IClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
@@ -19,28 +18,34 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/build/classes/java/main/StartClient$MyRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/classes/java/main/StartClient$MyCallable.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/build/classes/java/main/StartClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/classes/java/main/StartClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/resources/main/spring-client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/resources/main/spring-client.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/main/java/StartClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/StartClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/spring-client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/spring-client.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/model/Spectacol$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/model/Spectacol$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/model/Spectacol$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/model/Spectacol$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/model/Spectacol.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/model/Spectacol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build/classes/java/main/services/IService.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/classes/java/main/services/IService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build/libs/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/build/libs/common-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/model/Spectacol.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/model/Spectacol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/services/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/services/IService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/classes/java/main/StartServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/classes/java/main/StartServer$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/build/classes/java/main/StartServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/classes/java/main/StartServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/build/classes/java/main/repo/RepoSpectacol.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/classes/java/main/repo/RepoSpectacol.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/build/classes/java/main/repo/RepoVanzari.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/classes/java/main/repo/RepoVanzari.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/classes/java/main/services/ServiceImplementation$MyCallable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/classes/java/main/services/ServiceImplementation$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/classes/java/main/services/ServiceImplementation$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/classes/java/main/services/ServiceImplementation$WorkerVanzari.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/classes/java/main/services/ServiceImplementation$WorkerVanzari.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/classes/java/main/services/ServiceImplementation$WorkerVerificari.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/classes/java/main/services/ServiceImplementation$WorkerVerificari.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/build/classes/java/main/services/ServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/classes/java/main/services/ServiceImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/resources/main/server-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/resources/main/server-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/StartServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/StartServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/repo/RepoSpectacol.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/repo/RepoSpectacol.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/repo/RepoVanzari.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/repo/RepoVanzari.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/services/ServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/services/ServiceImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/server-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/server-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spectacole.txt" beforeDir="false" afterPath="$PROJECT_DIR$/spectacole.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vanzari.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vanzari.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verificare.txt" beforeDir="false" afterPath="$PROJECT_DIR$/verificare.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +97,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.StartServer">
+  <component name="RunManager" selected="Application.StartClient">
     <configuration name="StartClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StartClient" />
       <module name="project.client.main" />
@@ -153,18 +158,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1609457146886" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1609448702452">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1609589647553">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1609448702452" />
-    <state x="56" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608718869314">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1609589647553" />
+    <state x="56" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1609589591455">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="56" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1608718869314" />
+    <state x="56" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1609589591455" />
     <state x="499" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1608657504429">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608657504429" />
+    <state x="835" y="230" key="#xdebugger.evaluate" timestamp="1609588072273">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="835" y="230" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1609588072273" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1609585734821">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1609585734821" />
     <state x="473" y="153" key="FileChooserDialogImpl" timestamp="1609451391523">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -173,38 +186,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="173" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1536.824@0.0.1536.824" timestamp="1609269211205" />
-    <state width="1493" height="197" key="GridCell.Tab.0.bottom" timestamp="1609457150921">
+    <state width="1493" height="137" key="GridCell.Tab.0.bottom" timestamp="1609591833187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609457150921" />
-    <state width="1493" height="197" key="GridCell.Tab.0.center" timestamp="1609457150921">
+    <state width="1493" height="137" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609591833187" />
+    <state width="1493" height="137" key="GridCell.Tab.0.center" timestamp="1609591833187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609457150921" />
-    <state width="1493" height="197" key="GridCell.Tab.0.left" timestamp="1609457150921">
+    <state width="1493" height="137" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609591833187" />
+    <state width="1493" height="137" key="GridCell.Tab.0.left" timestamp="1609591833187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609457150921" />
-    <state width="1493" height="197" key="GridCell.Tab.0.right" timestamp="1609457150921">
+    <state width="1493" height="137" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609591833187" />
+    <state width="1493" height="137" key="GridCell.Tab.0.right" timestamp="1609591833187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609457150921" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1609272272342">
+    <state width="1493" height="137" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609591833187" />
+    <state width="1493" height="323" key="GridCell.Tab.1.bottom" timestamp="1609591833179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609272272342" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1609272272342">
+    <state width="1493" height="323" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609591833179" />
+    <state width="1493" height="323" key="GridCell.Tab.1.center" timestamp="1609591833179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1609272272342" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1609272272342">
+    <state width="1493" height="323" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1609591833179" />
+    <state width="1493" height="323" key="GridCell.Tab.1.left" timestamp="1609591833179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1609272272342" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1609272272342">
+    <state width="1493" height="323" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1609591833179" />
+    <state width="1493" height="323" key="GridCell.Tab.1.right" timestamp="1609591833179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1609272272342" />
+    <state width="1493" height="323" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1609591833179" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1609451483112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -213,6 +226,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1608657503197" />
+    <state x="861" y="103" width="581" height="534" key="find.popup" timestamp="1609577396319">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="861" y="103" width="581" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1609577396319" />
     <state x="209" y="22" key="new project wizard" timestamp="1608656530324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -222,21 +239,36 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/server/src/main/java/repo/RepoSpectacol.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/client/src/main/java/StartClient.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/server/src/main/java/services/ServiceImplementation.java</url>
-          <line>193</line>
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/client/src/main/java/ClientGenerator.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/server/src/main/java/services/ServiceImplementation.java</url>
-          <line>134</line>
-          <option name="timeStamp" value="16" />
+          <url>file://$PROJECT_DIR$/client/src/main/java/StartClient.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/client/src/main/java/StartClient.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/StartServer.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Remote">
+        <watch expression="v" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
